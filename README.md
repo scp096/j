@@ -37,4 +37,4 @@ A linux cmdline tool to set jump path easily and faster.
 	5. To list all shortcut:
 		j list
 	6. To edit all shortcuts:
-		j edit`
+		j edit
