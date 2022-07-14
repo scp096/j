@@ -1,4 +1,4 @@
-# j
+# jgo
 A linux cmdline tool to set jump path easily and faster.
 
 ## Install
@@ -30,7 +30,7 @@ A linux cmdline tool to set jump path easily and faster.
 		j [shortcut]
 	2. To add a shortcut:
 		j add [shortcut]=[path]
-	3. To quickadd a shortcut:
+	3. To quickadd a shortcut: // quickadd will use your current directory
 		j quickadd [shortcut]
 	4. To delete a shortcut:
 		j delete [shortcut]
