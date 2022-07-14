@@ -3,7 +3,7 @@ A linux cmdline tool to set jump path easily and faster.
 
 ## Install
 #### Install the binary
-	go install github.com/scp096/j
+	go install github.com/scp096/jgo@latest
 #### Edit the bashrc file
 ###### Add following content in ~/.bashrc
 	function j { 
