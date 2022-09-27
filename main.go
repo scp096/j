@@ -27,7 +27,6 @@ func main() {
 		panic(err)
 	}
 	defer cfg.UninitCfg()
-	os.Args[0] = "j"
 	if !find(os.Args[1:], "__completeNoDesc") &&
 		!find(os.Args[1:], "__complete") { // not complete script call
 		subCmd, _, err := cmd.RootCmd.Find(os.Args[1:])
